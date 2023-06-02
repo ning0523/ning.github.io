@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+}
+
+.flex {
+  display: flex;
+  align-items: baseline;
+}
+
+.mag-left-20 {
+  margin-left: 20px;
+}
+
+.mag-left-50 {
+  margin-left: 50px;
+}

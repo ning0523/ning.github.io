@@ -6,10 +6,34 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hello ning</title>
+  <link rel="stylesheet" href="./assets/css/index.css">
+  <link rel="stylesheet" href="./assets/css/glitch.css">
+  <link rel="stylesheet" href="./assets/css/heartbeat.css">
+  <link rel="stylesheet" href="./assets/css/pyramid.css">
 </head>
 
 <body>
-  <h1>Hello, ning</h1>
+  <div class="flex">
+    <div class="glitch mag-left-20" title="Hello, ning">Hello, ning</div>
+
+    <div class="loading mag-left-50">
+      <svg width="64px" height="48px">
+        <polyline points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24" id="back"></polyline>
+        <polyline points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24" id="front"></polyline>
+      </svg>
+    </div>
+
+  </div>
+
+  <div class="pyramid-loader">
+    <div class="wrapper">
+      <span class="side side1"></span>
+      <span class="side side2"></span>
+      <span class="side side3"></span>
+      <span class="side side4"></span>
+      <span class="shadow"></span>
+    </div>
+  </div>
 </body>
 
 </html>
